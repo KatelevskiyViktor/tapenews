@@ -3,23 +3,28 @@
 
 class NewsController{
 		public function actionAll(){
+			/*echo NewsModel::getTable();
+			die;(id-3)*/
+			$db = new DB;
+			$res = $db->query('SELECT * FROM newsInfo');
+			var_dump($res);
+			die;
 			$items = news::getAll();
-			include __DIR__.'/../views/index_view.php';
+			$view = new view();
+			$view->items = $items;
+			$view->display('index_view.php');
 		}
 		public function actionOne(){
 				$id = $_GET['id'];
 				$items = news::getOne();
-				include __DIR__.'/../views/newspage_view.php';
+				$view = new view();
+				/*Для себя, не обращайте внимания(id=2)!!!
+				$view->assign('items', $items);*/
+				$view->items = $items;
+				$view->display('newspage_view.php');
 			
 		}
-		public function actionAddNews(){
-			if(!empty($_POST['text']) && !empty($_POST['title']) && !empty($_FILES)){
-				require_once __DIR__.'/../blocks/func_lib.php';
-				$items = news::addNews();
-			}
-				include __DIR__.'/../views/add_view.php';
-			
-		}
+		
 }
 
 ?>
