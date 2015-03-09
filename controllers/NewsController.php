@@ -5,18 +5,16 @@ class NewsController{
 		public function actionAll(){
 			/*echo NewsModel::getTable();
 			die;(id-3)*/
-			$db = new DB;
-			$res = $db->query('SELECT * FROM newsInfo');
-			var_dump($res);
-			die;
-			$items = news::getAll();
-			$view = new view();
-			$view->items = $items;
-			$view->display('index_view.php');
+			
+				$items = NewsModel::findAll();
+				$view = new view();
+				$view->items = $items;
+				$view->display('index_view.php');
+			
 		}
 		public function actionOne(){
 				$id = $_GET['id'];
-				$items = news::getOne();
+				$items = NewsModel::findOne($id);
 				$view = new view();
 				/*Для себя, не обращайте внимания(id=2)!!!
 				$view->assign('items', $items);*/

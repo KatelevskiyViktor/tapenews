@@ -7,10 +7,11 @@
 	</head>
 	<body>
 		<?php
+		
 			if((empty($_POST['text']) || empty($_POST['title']) || empty($_FILES)) && isset($_POST['submit']) ){
 	echo "Вы не заполнили все поля, или не добавили изображение.";
 	}
-	else if($items === true){
+	else if($this->items === true){
 	echo "<p class='notif'>Информация успешно добавлена!</p><meta http-equiv='refresh' content='1;./index.php'>";
 	}
 		?>

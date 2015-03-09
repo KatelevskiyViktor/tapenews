@@ -3,6 +3,7 @@
 		implements Iterator{
 		protected $data = [];
 		
+		
 		/*Для себя, не обращайте внимания(id=2)!!!
 		public function assign($name, $value){
 			$this->data[$name] = $value;

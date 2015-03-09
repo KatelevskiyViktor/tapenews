@@ -11,7 +11,7 @@
 		<fieldset id="fi"><legend>Лента новостей.</legend>
 			<ul>
 			<?php
-			
+		
 			foreach($items as $item){
 				echo "<li>
 					<img src='".$item->img."' alt='".$item->title."' title='".$item->title."' />
