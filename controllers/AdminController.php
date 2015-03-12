@@ -1,5 +1,5 @@
 <?php 
-
+namespace Application\Controllers; 
 
 class AdminController{
 		public $items;
@@ -15,7 +15,7 @@ class AdminController{
 				
 			}
 			
-				$view = new view();
+				$view = new \view();
 				$view->items = $this->items;
 				$view->display('add_view.php');
 				

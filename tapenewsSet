@@ -1,0 +1,204 @@
+<NotepadPlus>
+    <Project name="tapenews">
+        <Folder name=".idea">
+            <Folder name="scopes">
+                <File name=".idea\scopes\scope_settings.xml" />
+            </Folder>
+            <File name=".idea\.name" />
+            <File name=".idea\encodings.xml" />
+            <File name=".idea\modules.xml" />
+            <File name=".idea\tapenews.iml" />
+            <File name=".idea\vcs.xml" />
+            <File name=".idea\workspace.xml" />
+        </Folder>
+        <Folder name="blocks">
+            <File name="blocks\func_lib.php" />
+        </Folder>
+        <Folder name="classes">
+            <File name="classes\AbstractModel.php" />
+            <File name="classes\AbstractModelTemp.php" />
+            <File name="classes\DB.php" />
+            <File name="classes\E404Exception.php" />
+            <File name="classes\IModel.php" />
+            <File name="classes\view.php" />
+        </Folder>
+        <Folder name="controllers">
+            <File name="controllers\AdminController.php" />
+            <File name="controllers\NewsController.php" />
+        </Folder>
+        <Folder name="css">
+            <File name="css\style.css" />
+        </Folder>
+        <Folder name="img">
+            <File name="img\canon.jpg" />
+            <File name="img\face.jpg" />
+            <File name="img\rez.png" />
+            <File name="img\seagate.jpg" />
+            <File name="img\twitter.jpg" />
+            <File name="img\xia.jpg" />
+        </Folder>
+        <Folder name="models">
+            <File name="models\news.php" />
+            <File name="models\NewsModel.php" />
+        </Folder>
+        <Folder name="sql_db">
+            <File name="sql_db\news.sql" />
+        </Folder>
+        <Folder name="vendor">
+            <Folder name="composer">
+                <File name="vendor\composer\autoload_classmap.php" />
+                <File name="vendor\composer\autoload_namespaces.php" />
+                <File name="vendor\composer\autoload_psr4.php" />
+                <File name="vendor\composer\autoload_real.php" />
+                <File name="vendor\composer\ClassLoader.php" />
+                <File name="vendor\composer\installed.json" />
+            </Folder>
+            <Folder name="phpmailer">
+                <Folder name="phpmailer">
+                    <Folder name="docs">
+                        <File name="vendor\phpmailer\phpmailer\docs\Callback_function_notes.txt" />
+                        <File name="vendor\phpmailer\phpmailer\docs\DomainKeys_notes.txt" />
+                        <File name="vendor\phpmailer\phpmailer\docs\extending.html" />
+                        <File name="vendor\phpmailer\phpmailer\docs\faq.html" />
+                        <File name="vendor\phpmailer\phpmailer\docs\generatedocs.sh" />
+                        <File name="vendor\phpmailer\phpmailer\docs\Note_for_SMTP_debugging.txt" />
+                        <File name="vendor\phpmailer\phpmailer\docs\pop3_article.txt" />
+                    </Folder>
+                    <Folder name="examples">
+                        <Folder name="images">
+                            <File name="vendor\phpmailer\phpmailer\examples\images\phpmailer.png" />
+                            <File name="vendor\phpmailer\phpmailer\examples\images\phpmailer_mini.png" />
+                        </Folder>
+                        <Folder name="scripts">
+                            <File name="vendor\phpmailer\phpmailer\examples\scripts\shAutoloader.js" />
+                            <File name="vendor\phpmailer\phpmailer\examples\scripts\shBrushPhp.js" />
+                            <File name="vendor\phpmailer\phpmailer\examples\scripts\shCore.js" />
+                            <File name="vendor\phpmailer\phpmailer\examples\scripts\shLegacy.js" />
+                            <File name="vendor\phpmailer\phpmailer\examples\scripts\XRegExp.js" />
+                        </Folder>
+                        <Folder name="styles">
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCore.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCoreDefault.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCoreDjango.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCoreEclipse.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCoreEmacs.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCoreFadeToGrey.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCoreMDUltra.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCoreMidnight.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shCoreRDark.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeAppleScript.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeDefault.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeDjango.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeEclipse.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeEmacs.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeFadeToGrey.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeMDUltra.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeMidnight.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeRDark.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\shThemeVisualStudio.css" />
+                            <File name="vendor\phpmailer\phpmailer\examples\styles\wrapping.png" />
+                        </Folder>
+                        <File name="vendor\phpmailer\phpmailer\examples\code_generator.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\contents.html" />
+                        <File name="vendor\phpmailer\phpmailer\examples\exceptions.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\gmail.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\index.html" />
+                        <File name="vendor\phpmailer\phpmailer\examples\LGPLv3.txt" />
+                        <File name="vendor\phpmailer\phpmailer\examples\mail.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\mailing_list.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\pop_before_smtp.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\sendmail.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\smtp.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\smtp_check.phps" />
+                        <File name="vendor\phpmailer\phpmailer\examples\smtp_no_auth.phps" />
+                    </Folder>
+                    <Folder name="extras">
+                        <File name="vendor\phpmailer\phpmailer\extras\class.html2text.php" />
+                        <File name="vendor\phpmailer\phpmailer\extras\EasyPeasyICS.php" />
+                        <File name="vendor\phpmailer\phpmailer\extras\htmlfilter.php" />
+                        <File name="vendor\phpmailer\phpmailer\extras\ntlm_sasl_client.php" />
+                        <File name="vendor\phpmailer\phpmailer\extras\README.md" />
+                    </Folder>
+                    <Folder name="language">
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-ar.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-be.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-br.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-ca.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-ch.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-cz.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-de.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-dk.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-el.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-eo.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-es.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-et.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-fa.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-fi.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-fo.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-fr.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-gl.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-he.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-hr.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-hu.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-it.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-ja.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-ka.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-lt.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-lv.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-nl.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-no.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-pl.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-pt.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-ro.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-ru.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-se.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-sk.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-sr.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-tr.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-uk.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-vi.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-zh.php" />
+                        <File name="vendor\phpmailer\phpmailer\language\phpmailer.lang-zh_cn.php" />
+                    </Folder>
+                    <Folder name="test">
+                        <File name="vendor\phpmailer\phpmailer\test\bootstrap.php" />
+                        <File name="vendor\phpmailer\phpmailer\test\fakepopserver.sh" />
+                        <File name="vendor\phpmailer\phpmailer\test\fakesendmail.sh" />
+                        <File name="vendor\phpmailer\phpmailer\test\phpmailerLangTest.php" />
+                        <File name="vendor\phpmailer\phpmailer\test\phpmailerTest.php" />
+                        <File name="vendor\phpmailer\phpmailer\test\runfakepopserver.sh" />
+                        <File name="vendor\phpmailer\phpmailer\test\testbootstrap-dist.php" />
+                        <File name="vendor\phpmailer\phpmailer\test\test_callback.php" />
+                    </Folder>
+                    <File name="vendor\phpmailer\phpmailer\.gitignore" />
+                    <File name="vendor\phpmailer\phpmailer\.scrutinizer.yml" />
+                    <File name="vendor\phpmailer\phpmailer\.travis.yml" />
+                    <File name="vendor\phpmailer\phpmailer\changelog.md" />
+                    <File name="vendor\phpmailer\phpmailer\class.phpmailer.php" />
+                    <File name="vendor\phpmailer\phpmailer\class.pop3.php" />
+                    <File name="vendor\phpmailer\phpmailer\class.smtp.php" />
+                    <File name="vendor\phpmailer\phpmailer\composer.json" />
+                    <File name="vendor\phpmailer\phpmailer\LICENSE" />
+                    <File name="vendor\phpmailer\phpmailer\PHPMailerAutoload.php" />
+                    <File name="vendor\phpmailer\phpmailer\README.md" />
+                    <File name="vendor\phpmailer\phpmailer\travis.phpunit.xml.dist" />
+                </Folder>
+            </Folder>
+            <File name="vendor\autoload.php" />
+        </Folder>
+        <Folder name="views">
+            <Folder name="view_pages">
+                <File name="views\view_pages\add_view.php" />
+                <File name="views\view_pages\index_view.php" />
+                <File name="views\view_pages\newspage_view.php" />
+            </Folder>
+            <File name="views\error.php" />
+        </Folder>
+        <File name=".htaccess" />
+        <File name="autoload.php" />
+        <File name="composer.json" />
+        <File name="composer.lock" />
+        <File name="composer.phar" />
+        <File name="index.php" />
+    </Project>
+</NotepadPlus>
